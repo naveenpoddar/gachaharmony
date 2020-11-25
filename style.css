@@ -1,0 +1,81 @@
+nav{
+  background-color: #40E0D0;
+  border-bottom: 2px solid black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#log{
+  border: 1px solid black;
+  border-radius: 3px;
+}
+body{
+  background: url('bg.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.center{
+  text-align: center;
+  color: #fff;
+  margin-top: 10vh;
+}
+
+h1{
+  font-family: 'Secular One', sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  padding-bottom: 2vh;
+}
+
+p{
+  font-family: cursive;
+}
+
+#ncchannel{
+  color: red;
+}
+
+.card-text{
+  color: black;
+  font-family: sans-serif;
+}
+
+.card-title{
+  color: black;
+  font-weight: bold;
+}
+
+.card img {
+  border-bottom: 2px solid black;
+}
+
+.card{
+  background-color: rgb(248, 247, 247) !important;
+  transition: 0.1s ease-in;
+  cursor: pointer;
+  /* border: 2px solid black !important; */
+  /* box-shadow: black; */
+}
+
+.card:hover {
+  transform: scale(1.03, 1.03);
+}
+
+#foot{
+  background-color: rgb(65, 65, 65);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  /* border-top: 1px solid grey; */
+  
+}
+
+.width-full{
+  /* width: 100%; */
+}
